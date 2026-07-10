@@ -196,3 +196,52 @@
     border-radius: 5px;
     color: black;
 }
+
+.Career-zone-section{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.career-zone{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Resume-Reviews{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.Mock-Interviews{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.Protfolio-Feedback{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.Job-Oppurtunities{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.Recruitment-Meetings{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cr-btn{
+    cursor: pointer;
+}
+
+.cr-btn-hover{
+    color: gray;
+}
+
