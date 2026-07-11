@@ -152,7 +152,6 @@
 .start-card-section{ 
     text-align: center; 
     margin-top: 10px; 
-    padding: 10px; 
 } 
 
 .card-section{ 
@@ -161,10 +160,14 @@
     grid-template-columns: repeat(3, 1fr); 
     gap: 30px; 
     max-width: 1200px; 
-    margin: auto; 
+    margin: auto;
+
 }
 
-.standard-card{ 
+.standard-card,
+.team-card,
+.pro-card
+{ 
     border: 2px solid gray; 
     text-align: left; 
     list-style: none;
@@ -172,24 +175,14 @@
     border-radius: 7px;
 }
 
-.pro-card{ 
-    border: 2px solid gray; 
-    text-align: left; 
-    background-color: black; color: white; 
-    list-style: none;
-    padding: 25px;
-    border-radius: 7px;
+.card-sec{
+    padding: 0;
 }
-
 .pro-card h5{ 
     color: blue; 
-} 
-
-.team-card{ 
-    border: 2px solid gray; 
-    text-align: left; 
-    list-style: none;
-    padding: 25px;
+}
+.pro-card{
+    background-color: lightskyblue;
 } 
 
 .card-btn{
@@ -198,10 +191,9 @@
     border: 2px solid blue;
     border-radius: 5px;
     color: blue;
-    border-radius: 7px;
+    background-color: blueviolet;
 }
-
-.card-btnn{ 
+.card-btnn{
     display: block; 
     width: 200px; 
     border: 2px solid blue; 
@@ -216,6 +208,10 @@
     border: 2px solid black; 
     border-radius: 5px; 
     color: black; 
+}
+
+.bulltet-point{
+    margin-left: 20px;
 }
 
 /* end card css */
@@ -269,7 +265,36 @@
     color: gray;
 }
 
-.footer-logoo{
-    
+.footer{
+    color:white ;
+    padding: 20px 40px;
 }
 
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid black;
+    margin: 25px 0;
+}
+
+.social-icons a {
+    color: blue;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover{
+    color: rgb(191, 154, 226);
+}
+
+.Copoyrightt{
+    text-align: left;
+    color: blue;
+}
