@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -21,6 +22,10 @@
     justify-content: space-between;
     gap: 15px;
     list-style: none;
+}
+
+.barr a{
+    text-decoration: none;
 }
 
 .btn-color{
@@ -59,7 +64,10 @@
     text-align: center;
     color: white;
     padding-top: 10px;
+    width: 959px;
+    height: 95px;
 }
+
 
 .banner-btn {
     position: absolute;
@@ -88,7 +96,8 @@
 .main-speakers-section{
     text-align: center;
     margin-top: 20px;
-    padding: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
     max-width: 1200px;
     margin: 50px auto;
 }
@@ -164,7 +173,7 @@
 /* start card css */
 .start-card-section{ 
     text-align: center; 
-    margin-top: 10px; 
+    margin-top: 20px; 
 } 
 
 .card-section{ 
@@ -179,40 +188,98 @@
 
 .standard-card,
 .team-card,
-.pro-card
-{ 
-    border: 2px solid gray; 
+.pro-card{
+    border: 2px solid #E5E7EB;
     text-align: left; 
     list-style: none;
-    padding: 25px;
+    padding: 20px 50px 20px 50px;
     border-radius: 7px;
+    width: 340px;
+    width: 370.67px;
+    height: 444px;
+}
+ .team-card{
+    background-color:#E5E7EB;
+ }
+
+ .standard-card ul,
+ .pro-card ul,
+ .team-card ul{
+    padding-left: 16px;
+ }
+.standard-card h5,
+.pro-card h5,
+.team-card h5{
+    height: 20px;
+    width: 304.66px;
+}
+.standard-card h2,
+.pro-card h2,
+.team-card h2{
+    height:52px;
+    width: 304.66px;
+}
+.standard-card hr,
+.pro-card hr,
+.team-card hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.standard-card p,
+.pro-card p,
+.team-card p{
+    height: 24px;
+    width: 304.66px;
+}
+.standard-card ul,
+.pro-card ul,
+.team-card ul{
+    height: 176px;
+    width: 304.66px;
 }
 
+.card-btn,
+.card-btnn,
+.card-btnnn{
+    height:45px ;
+    width: 304.66px;
+
+}
+.standard-card h5,{
+    color: #888888;
+}
+.standard-card p{
+    color:#888888 ;
+}
+.standard-card h2{
+    color: #0D1B2A;
+}
 .card-sec{
     padding: 0;
 }
 .pro-card h5{ 
-    color: blue; 
+    color: #93C5FD; 
 }
 .pro-card{
-    background-color: lightskyblue;
+    background-color: #0D1B2A;
+    color: #FFFFFF;
 } 
 
 .card-btn{
     display: block;
     width: 200px;
-    border: 2px solid blue;
+    border: 2px solid #2563EB;
     border-radius: 5px;
-    color: blue;
-    background-color: blueviolet;
+    color: #2563EB;
 }
+
 .card-btnn{
     display: block; 
     width: 200px; 
     border: 2px solid blue; 
     border-radius: 5px; 
-    background-color: blue; 
-    color: white; 
+    background-color: #2563EB; 
+    color:#FFFFFF; 
 }
 
 .card-btnnn{ 
@@ -234,7 +301,7 @@
 .Career-zone-section{
     text-align: center;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .career-zone{
@@ -286,6 +353,8 @@
 .footer{
     color:white ;
     padding: 20px 40px;
+    background-color: #0D1B2A;
+    padding: 20px;
 }
 
 .footer-top{
@@ -312,6 +381,10 @@
     color: rgb(191, 154, 226);
 }
 
+.Conditions{
+    display: flex;
+    justify-content: space-between;
+}
 .Copoyrightt{
     text-align: left;
     color: blue;
