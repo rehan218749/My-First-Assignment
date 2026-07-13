@@ -6,7 +6,6 @@
 }
 
 
-
 /* start nav css */
 .bar{
     display: flex;
@@ -68,14 +67,11 @@
     height: 95px;
 }
 
-
 .banner-btn {
     position: absolute;
     bottom: 5px;
-
     left: 50%;
     transform: translateX(-50%);
-
     background-color: rgb(19, 19, 240);
     color: white;
     font-size: 20px;
@@ -116,7 +112,7 @@
     border-radius: 10px;
     text-align: left;
     overflow: hidden;
-    box-shadow: gray;
+    box-shadow: rgb(133, 132, 132);
 }
 
 .step-two{
@@ -124,7 +120,7 @@
     border-radius: 10px;
     text-align: left;
     overflow: hidden;
-    box-shadow: gray;
+    box-shadow: rgb(133, 132, 132);
 }
 
 .step-three{
@@ -132,7 +128,7 @@
     border-radius: 10px;
     text-align: left;
     overflow: hidden;
-    box-shadow: gray;
+    box-shadow: rgb(133, 132, 132);
 }
 
 .step-four{
@@ -140,7 +136,7 @@
     border-radius: 10px;
     text-align: left;
     overflow: hidden;
-    box-shadow: gray;
+    box-shadow: rgb(133, 132, 132);
 }
 
 .step-one img,
@@ -174,8 +170,12 @@
 .start-card-section{ 
     text-align: center; 
     margin-top: 20px; 
-} 
-
+}
+.start-card-section h1,
+.start-card-section p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 .card-section{ 
     display: grid; 
     justify-content: space-between; 
@@ -183,9 +183,7 @@
     gap: 30px; 
     max-width: 1200px; 
     margin: auto;
-
 }
-
 .standard-card,
 .team-card,
 .pro-card{
@@ -194,19 +192,16 @@
     list-style: none;
     padding: 20px 50px 20px 50px;
     border-radius: 7px;
-    width: 340px;
     width: 370.67px;
     height: 444px;
 }
- .team-card{
+.team-card{
     background-color:#E5E7EB;
- }
-
- .standard-card ul,
- .pro-card ul,
- .team-card ul{
+}
+.standard-card ul,
+.team-card ul{
     padding-left: 16px;
- }
+}
 .standard-card h5,
 .pro-card h5,
 .team-card h5{
@@ -245,7 +240,7 @@
     width: 304.66px;
 
 }
-.standard-card h5,{
+.standard-card h5{
     color: #888888;
 }
 .standard-card p{
@@ -264,7 +259,9 @@
     background-color: #0D1B2A;
     color: #FFFFFF;
 } 
-
+.team-card h5{
+    color: #888888;
+}
 .card-btn{
     display: block;
     width: 200px;
@@ -290,7 +287,7 @@
     color: black; 
 }
 
-.bulltet-point{
+.bullet-point{
     margin-left: 20px;
 }
 /* end card css */
@@ -302,6 +299,12 @@
     text-align: center;
     margin-top: 10px;
     padding: 20px;
+}
+
+.Career-zone-section h1,
+.Career-zone-section p{
+    margin-top:10px ;
+    margin-bottom: 10px;
 }
 
 .career-zone{
@@ -323,12 +326,12 @@
     border-radius: 5px;
 }
 
-.Protfolio-Feedback{
+.Portfolio-Feedback{
     border: 2px solid black;
     border-radius: 5px;
 }
 
-.Job-Oppurtunities{
+.Job-Opportunities{
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -342,7 +345,7 @@
     cursor: pointer;
 }
 
-.cr-btn-hover{
+.cr-btn:hover{
     color: gray;
 }
 /* end career zone css */
@@ -355,6 +358,7 @@
     padding: 20px 40px;
     background-color: #0D1B2A;
     padding: 20px;
+    margin-top: 25px;
 }
 
 .footer-top{
@@ -385,7 +389,8 @@
     display: flex;
     justify-content: space-between;
 }
-.Copoyrightt{
+
+.Copyright{
     text-align: left;
     color: blue;
 }
